@@ -1,0 +1,17 @@
+{
+"name": "open-reverse-geocoder-ja-tiles",
+"description": "Japanese Address Tilesets for open-reverse-geocoder",
+"version": "2",
+"minzoom": "10",
+"maxzoom": "10",
+"center": "141.503906,38.410427,10",
+"bounds": "122.695313,20.303418,154.335938,45.583290",
+"antimeridian_adjusted_bounds": "122.695313,20.303418,154.335938,45.583290",
+"type": "overlay",
+"attribution": "「国土数値情報（行政区域データ）」（国土交通省）をもとに株式会社Geolonia作成",
+"strategies": "[{},{},{},{},{},{},{},{},{},{},{\"tiny_polygons\":69163}]",
+"format": "pbf",
+"generator": "tile-join v2.63.0",
+"generator_options": "tippecanoe --no-tile-compression '--maximum-zoom=10' '--minimum-zoom=10' -l japanese-admins -o /Users/binhbui/Documents/open-reverse-geocoder-ja/tmp/admins.mbtiles --force; tile-join --force --no-tile-compression -n open-reverse-geocoder-ja-tiles -N 'Japanese Address Tilesets for open-reverse-geocoder' -A '「国土数値情報（行政区域データ）」（国土交通省）をもとに株式会社Geolonia作成' '--output-to-directory=/Users/binhbui/Documents/open-reverse-geocoder-ja/docs/tiles' --no-tile-size-limit /Users/binhbui/Documents/open-reverse-geocoder-ja/tmp/admins.mbtiles",
+"json": "{\"vector_layers\":[{\"id\":\"japanese-admins\",\"description\":\"\",\"minzoom\":10,\"maxzoom\":10,\"fields\":{\"city\":\"String\",\"prefecture\":\"String\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"japanese-admins\",\"count\":61651,\"geometry\":\"Polygon\",\"attributeCount\":2,\"attributes\":[{\"attribute\":\"city\",\"count\":1000,\"type\":\"string\",\"values\":[\"�@�J�S������\",\"�@�c�s\",\"�@���s\",\"�A��S�A�摺\",\"�B��S�B��̓���\",\"�B��S�C�m��\",\"�B��S�m�v��\",\"�B��S���m����\",\"�B��s\",\"�C�V���s\",\"�C�Îs\",\"�C��S�Z�c��\",\"�C��s\",\"�C���S�C�z��\",\"�C���S�I�]��\",\"�C���S�I���쒬\",\"�C���S�厡��\",\"�C���S���g��\",\"�C���S����\",\"�C���S�򓇑�\",\"�C����s\",\"�D�y�s�D�y�s�L����\",\"�D�y�s�D�y�s�k��\",\"�D�y�s�D�y�s���\",\"�D�y�s�D�y�s���c��\",\"�D�y�s�D�y�s���ʋ�\",\"�D�y�s�D�y�s���΋�\",\"�D�y�s�D�y�s����\",\"�D�y�s�D�y�s������\",\"�D��S���O�g��\",\"�D���s\",\"�E���S�ނ��풬\",\"�E���S�芥��\",\"�E���S���^��\",\"�E���S������\",\"�F�J�s\",\"�F�O�S�F�O��\",\"�F�a���s\",\"�F�s�{�s\",\"�F�y�s\",\"�F�{�s\",\"�F�{�s�F�{�s�k��\",\"�F�{�s�F�{�s���\",\"�F�{�s�F�{�s����\",\"�F�{�s�F�{�s������\",\"�F�ɌS�]����\",\"�F�ɌS���\",\"�F�Ɏs\",\"�F�ьS�c�z�{��\",\"�F�ьS��֒�\",\"�F�ьS���q��\",\"�F�ьS���v����\",\"�F�ьS����q��\",\"�F�ьS������\",\"�F��S�F�꒬\",\"�F��S�s�L��\",\"�F��S�v�q��\",\"�F��S�Ζؒ�\",\"�F��s\",\"�F���S���ܒ�\",\"�F���s\",\"�F������s\",\"�H�c�s\",\"�H�g��s\",\"�H��\",\"�H��S�u�꒬\",\"�H��S��B�u����\",\"�H��s\",\"�H���S�}����\",\"�H���S��쒬\",\"�H���s\",\"�I�]�s\",\"�I�̐�s\",\"�I���s\",\"�J���S�J����\",\"�J���S�k����\",\"�J���S�y������\",\"�J���S���c��\",\"�J���S���w����\",\"�J���S�����ʒ�\",\"�J���s\",\"�K�u��s\",\"�K�یS���q��\",\"�K��S�K��쒬\",\"�K��S�r�c��\",\"�K��S��쒬\",\"�K��s\",\"�K���S�ؑ]����\",\"�K���s\",\"�L�O�s\",\"�L�\\\\�S�L�\\\\��\",\"�L�\\\\�S�\\\\����\",\"�L�c�S�L�c�쒬\",\"�L�c�S�L�쒬\",\"�L�c�S���㓇��\",\"�L�c�S����\",\"�L�c�s\",\"�L�ˎs\",\"�L�㍂�c�s\",\"�L��S�s�˒�\"]},{\"attribute\":\"prefecture\",\"count\":39,\"type\":\"string\",\"values\":[\"�F�{��\",\"�H�c��\",\"�L����\",\"�O�d��\",\"�Q�n��\",\"�R�`��\",\"�R����\",\"�V����\",\"�_�ސ쌧\",\"�a�̎R��\",\"�k�C��\",\"�x�R��\",\"�{�茧\",\"�{�錧\",\"�X��\",\"�É���\",\"�Ȗ،�\",\"�ΐ쌧\",\"�ޗǌ�\",\"�啪��\",\"��t��\",\"��ʌ�\",\"��茧\",\"��錧\",\"���Q��\",\"���R��\",\"���m��\",\"���s�{\",\"���{\",\"���Ɍ�\",\"���䌧\",\"���挧\",\"���茧\",\"���ꌧ\",\"���쌧\",\"�����s\",\"������\",\"��������\",\"�򕌌�\"]}]}]}}"
+}
