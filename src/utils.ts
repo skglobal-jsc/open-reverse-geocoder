@@ -3,7 +3,6 @@ import { lngLatToGoogle } from 'global-mercator';
 import axios, { AxiosInstance } from 'axios';
 import { VectorTile } from 'mapbox-vector-tile';
 import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces';
-import { wbCountryOption } from './countryOptions';
 
 /**
  * Get a tile from targeted country's tilesets by using x and y tile index
@@ -82,19 +81,3 @@ export const getTileResult = (
   return geocodingResult;
 };
 
-/**
- * Get country information intersects with specified longitude and latitude
- * @param lnglat number[] longtitude, latitude
- * @param api Axios object
- * @returns Country Object eg. { code: 'JP', name: 'Japan'}
- */
-export const getCountryCode = async (
-  lnglat: [number, number],
-  api: AxiosInstance = axios
-): Promise<ReverseGeocodingResult> => {
-  const options = wbCountryOption;
-  const [x, y] = lngLatToGoogle(lnglat, options.zoomBase);
-
-  const tile = await getTile(x, y, options, api);
-  return getTileResult(tile, x, y, lnglat, options);
-};
