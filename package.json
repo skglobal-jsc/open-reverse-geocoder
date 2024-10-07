@@ -1,7 +1,7 @@
 {
-  "name": "@sk-global/reverse-geocoder",
+  "name": "@sk-global/open-reverse-geocoder",
   "description": "Reverse Geocoder, a library for reverse geocoding based on the Geospatial Information Authority of Japan (GSI) data",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "source": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/index.module.js",
