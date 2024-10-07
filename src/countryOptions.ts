@@ -1,6 +1,5 @@
 import {
   ReverseGeocodingOptions,
-  ReverseGeocodingResultCountry,
   ReverseGeocodingResultJP,
 } from './interfaces';
 

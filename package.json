@@ -50,11 +50,13 @@
   },
   "author": "SK-Global",
   "dependencies": {
+    "@mapbox/vector-tile": "^2.0.3",
     "axios": "^1.7.3",
     "axios-cache-interceptor": "^1.6.0",
     "d3-geo": "^3.1.1",
     "global-mercator": "^3.1.0",
-    "mapbox-vector-tile": "^0.3.0"
+    "mapbox-vector-tile": "^0.3.0",
+    "pbf": "^4.0.1"
   },
   "repository": {
     "type": "git",

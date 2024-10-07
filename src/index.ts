@@ -12,7 +12,7 @@ const api = setupCache(
     timeout: 2000,
   }),
   {
-    ttl: 60 * 60 * 24 * 1000,
+    ttl: 60 * 60 * 24 * 1000, // 1 day
   }
 );
 

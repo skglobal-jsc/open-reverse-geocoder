@@ -1,5 +1,4 @@
 import { geoContains } from 'd3-geo';
-import { lngLatToGoogle } from 'global-mercator';
 import axios, { AxiosInstance } from 'axios';
 import { VectorTile } from 'mapbox-vector-tile';
 import { ReverseGeocodingOptions, ReverseGeocodingResult } from './interfaces';
